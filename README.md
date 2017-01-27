@@ -13,7 +13,7 @@ Consider a scenario where a series of time-consuming DML queries are to be run.
   --4 - Takes 30 seconds
   SELECT (<fields>) FROM TABLE4 WHERE (<conditions>);
 
-  -- 1,2,3,4 together take 25+20+45+30 = 120 seconds, which is bad enough to make any respectable production code to time out and give up by then.
+  -- 1,2,3,4 together take 25+20+45+30 = 120 seconds, which is bad enough to make any respectable production code to time out.
 ```
 
 # Usage
